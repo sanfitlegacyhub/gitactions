@@ -24,5 +24,6 @@ jobs:
           # pip install -r requirements.txt
 
       - name: Run inventory script
-        run: python inventory.py
-             echo "my cloud is $cloud"
+        run: |
+            python inventory.py
+            echo "my cloud is $cloud"
