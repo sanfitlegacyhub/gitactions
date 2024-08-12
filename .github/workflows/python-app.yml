@@ -2,7 +2,8 @@ name: Run Inventory Management Script
 
 # Trigger the workflow on push to any branch
 on: [push]
-
+env:
+  cloud: GCP
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -24,3 +25,4 @@ jobs:
 
       - name: Run inventory script
         run: python inventory.py
+             echo "my cloud is $cloud"
