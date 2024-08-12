@@ -32,7 +32,7 @@ def main():
     inventory = add_item(inventory, "banana", 5)
     inventory = add_item(inventory, "orange", 8)
     
-    # Displaying the inventory
+    # Displaying the inventory  @@@@@@@@@@@@@@sanfit###########
     display_inventory(inventory)
 
     # Removing items from the inventory
