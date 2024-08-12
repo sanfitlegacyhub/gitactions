@@ -27,4 +27,4 @@ jobs:
         run: |
             python inventory.py
             echo "my cloud is $cloud"
-            echo "my cloud is $cloud and my id is ${{MYID}}"
+            echo "my cloud is $cloud and my id is ${{vars.MYID}}"
